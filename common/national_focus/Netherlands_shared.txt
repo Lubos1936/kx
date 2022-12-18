@@ -826,7 +826,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_draft_able_unemployed
-	icon = GFX_goal_generic_helmet_soldier
+	icon = GFX_goal_NEE_From_Soldiers_Rebuilders
 	cost = 5.00
 	available = { OR = { has_country_flag = hol_coalition_cna_vnh has_country_flag = hol_coalition_vnh_cna has_country_flag = hol_vnh_dictatorship } }
 	cancel = { NOT = { OR = { has_country_flag = hol_coalition_cna_vnh has_country_flag = hol_coalition_vnh_cna has_country_flag = hol_vnh_dictatorship } } }
@@ -1604,7 +1604,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_third_convention_of_hague
-	icon = GFX_goal_NYC_Neutral_Concordia
+	icon = GFX_goal_government_icon
 	cost = 7
 	prerequisite = {
 		focus = HOL_sustain_neutrality
@@ -1902,7 +1902,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_liberation_by_force
-	icon = GFX_goal_BEL_Reaffirm_Belgicist_Mission
+	icon = GFX_goal_HOL_crush_belgium
 	cost = 1.00
 	prerequisite = {
 		focus = HOL_liberating_the_flemish
@@ -2036,7 +2036,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_koninklijke_academie
-	icon = GFX_goal_generic_mend_university_divides
+	icon = GFX_goal_generic_scientific_exchange
 	cost = 7
 	prerequisite = {
 		focus = HOL_friendship_with_belgium
@@ -2072,7 +2072,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_dutch_researching
-	icon = GFX_CAL_new_sciences
+	icon = GFX_goal_generic_scientific_exchange
 	cost = 7
 	prerequisite = {
 		focus = HOL_belgian_policy
@@ -2148,7 +2148,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_sa_government_in_exile
-	icon = GFX_goal_SAF_wine
+	icon = GFX_focus_generic_diplomatic_treaty
 	cost = 7
 	prerequisite = {
 		focus = HOL_help_the_boers
@@ -2180,7 +2180,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_sar_koninklijke_academie
-	icon = GFX_theforkintheroad
+	icon = GFX_goal_generic_scientific_exchange
 	cost = 7
 	prerequisite = {
 		focus = HOL_help_the_boers
@@ -2250,7 +2250,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_koninklijke_academie_saf
-	icon = GFX_SAF_angloboer_harmony
+	icon = GFX_goal_generic_scientific_exchange
 	cost = 7
 	prerequisite = {
 		focus = HOL_abandon_the_boers
@@ -2524,7 +2524,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_infantry_focus
-	icon = GFX_goal_FSA_pershing_will_march
+	icon = GFX_focus_generic_little_entente
 	cost = 7
 	prerequisite = {
 		focus = HOL_dutch_army_focus
@@ -2550,7 +2550,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_machine_guns
-	icon = GFX_goal_POL_New_Polish_Rifle
+	icon = GFX_focus_generic_little_entente
 	cost = 7
 	prerequisite = {
 		focus = HOL_dutch_army_focus
@@ -2609,7 +2609,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_kai
-	icon = GFX_goal_ZAM_arms_factory
+	icon = GFX_goal_generic_army_artillery2
 	cost = 7
 	prerequisite = {
 		focus = HOL_land_doctrine_defensive
@@ -2629,7 +2629,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_anti_tank_focus
-	icon = GFX_focus_generic_tank_destroyer
+	icon = GFX_goal_anti_tank
 	cost = 7
 	prerequisite = {
 		focus = HOL_kai
@@ -2655,7 +2655,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_artillery_focus
-	icon = GFX_goal_SKM_Modern_Artillery
+	icon = GFX_goal_artillery
 	cost = 7
 	prerequisite = {
 		focus = HOL_kai
@@ -2681,7 +2681,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_reinforce_divisions
-	icon = GFX_EGY_Palestine_Defence
+	icon = GFX_goal_generic_political_pressure
 	cost = 7
 	prerequisite = {
 		focus = HOL_artillery_focus
@@ -2706,7 +2706,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_korps_luchtafweer
-	icon = GFX_goal_generic_anti_air_gun
+	icon = GFX_goal_anti_air
 	cost = 7
 	prerequisite = {
 		focus = HOL_land_doctrine_defensive
@@ -2746,7 +2746,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_vesting_holland
-	icon = GFX_goal_NVN_Fortify_Fort_Defiance
+	icon = GFX_goal_generic_construct_military
 	cost = 2
 	prerequisite = {
 		focus = HOL_korps_luchtafweer
@@ -2766,7 +2766,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_study_defence_plans
-	icon = GFX_goal_POL_Establish_Border_Forts
+	icon = GFX_goal_generic_defence
 	cost = 7
 	prerequisite = {
 		focus = HOL_vesting_holland
@@ -2793,7 +2793,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_mobilisation_preparation
-	icon = GFX_goal_generic_boost_morale
+	icon = GFX_goal_national_mobilization
 	cost = 7
 	prerequisite = {
 		focus = HOL_vesting_holland
@@ -2815,7 +2815,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_korps_pioniers
-	icon = GFX_goal_NEE_From_Soldiers_Rebuilders
+	icon = GFX_goal_construction_engineering
 	cost = 7
 	prerequisite = {
 		focus = HOL_vesting_holland
@@ -2842,7 +2842,7 @@ shared_focus = {
 shared_focus = {
 	id = HOL_prepare_the_inundation_lines
 	prerequisite = { focus = HOL_korps_pioniers }
-	icon = GFX_CRM_Water
+	icon = GFX_focus_hol_prepare_the_inundation_lines
 	relative_position_id = HOL_land_doctrine_defensive
 	x = 2
 	y = 5
@@ -2891,7 +2891,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_bicycle_army
-	icon = GFX_goal_bicycle_infantry
+	icon = GFX_goal_generic_build_tank
 	cost = 7
 	prerequisite = {
 		focus = HOL_land_doctrine_mobile
@@ -2916,7 +2916,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_armoured_cars
-	icon = GFX_goal_generic_armored_cars
+	icon = GFX_goal_generic_army_motorized
 	cost = 7
 	prerequisite = {
 		focus = HOL_bicycle_army
@@ -2953,7 +2953,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_korps_verkenners
-	icon = GFX_goal_generic_infantry_radio
+	icon = GFX_goal_rhineland
 	cost = 7
 	prerequisite = {
 		focus = HOL_armoured_cars
@@ -2979,7 +2979,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_gemotoriseerde_huzaren
-	icon = GFX_MON_motorize_army
+	icon = GFX_goal_generic_army_motorized
 	cost = 7
 	prerequisite = {
 		focus = HOL_bicycle_army
@@ -3000,7 +3000,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_requisition_trucks
-	icon = GFX_goal_NVN_Coopt_American_Military
+	icon = GFX_goal_generic_army_motorized
 	cost = 7
 	prerequisite = {
 		focus = HOL_gemotoriseerde_huzaren
@@ -3020,7 +3020,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_study_mobile_tactics
-	icon = GFX_goal_NEE_joint_entente_excercises
+	icon = GFX_goal_doctrine_tank_warfare
 	cost = 7
 	prerequisite = {
 		focus = HOL_bicycle_army
@@ -3046,7 +3046,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_mech_infantry
-	icon = GFX_goal_ATH_mech_peltasts
+	icon = GFX_goal_generic_build_tank
 	cost = 7
 	prerequisite = {
 		focus = HOL_study_mobile_tactics
@@ -3071,7 +3071,7 @@ shared_focus = {
 
 shared_focus = {
 	id = HOL_pantserkorps
-	icon = GFX_goal_AUS_panzerturmumbau
+	icon = GFX_goal_generic_army_tanks
 	cost = 7
 	prerequisite = {
 		focus = HOL_mech_infantry
